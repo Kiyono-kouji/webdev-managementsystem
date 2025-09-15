@@ -1,9 +1,5 @@
 <?php
 require("controller.php");
-
-if (session_status() == PHP_SESSION_NONE) {
-  session_start();
-}
 ?>
 
 <!doctype html>
